@@ -3,8 +3,8 @@ import smtplib
 import random
 import pandas as pd
 
-my_email = "eshaan84344@outlook.com"
-my_pass = "eshaan#2411"
+my_email = #Your mail
+my_pass = # Your Passwowrd"
 
 
 today = (datetime.now().month, datetime.now().day)
