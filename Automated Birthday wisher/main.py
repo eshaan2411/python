@@ -3,7 +3,7 @@ import smtplib
 import random
 import pandas as pd
 
-my_email = #Your mail
+my_email = #Your mail"
 my_pass = # Your Passwowrd"
 
 
