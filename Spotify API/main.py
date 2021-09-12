@@ -19,18 +19,18 @@ for song in songs_link:
 
 
 # Setting up Spotify API, creating a playlist.
-clientId = "9684b8d7aea84c498563837bb9e672cb"
-clientSecret = "22f5149a43e841fb81435822c255aa20"
+clientId = # Spotify client ID
+clientSecret = # Spotify client secret ID
 scope = "playlist-modify-private"
 
 # Spotify OAuth2 for adding songs in the newly created playlist.
-spotipyObj = SpotifyOAuth(client_id=clientId, client_secret=clientSecret, redirect_uri="https://example.com/eshaanplaylist/", scope=scope)
+spotipyObj = SpotifyOAuth(client_id=clientId, client_secret=clientSecret, redirect_uri= "#your redirect url", scope=scope)
 token = spotipyObj.get_cached_token()
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
         scope="playlist-modify-private",
-        redirect_uri="http://example.com/eshaanplaylist/",
+        redirect_uri="#your redirect url",
         client_id=clientId,
         client_secret=clientSecret,
         show_dialog=True,
