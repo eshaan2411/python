@@ -40,7 +40,7 @@ while len(guessed_states) < 50:
 states_left = [i for i in states if i not in guessed_states]
 print(states_left)
 
-# Get the co-ordinates of the states. (Already collected in file named "50_states.csv")
+# Get the co-ordinates of the states and store it in a .csv file. (Already collected in file named "50_states.csv")
 # def click(x, y):
 #     print(x, y)
 # turtle.onscreenclick(click)
